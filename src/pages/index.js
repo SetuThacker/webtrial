@@ -67,7 +67,7 @@ export default (() => {
 				>
 					Hey I’m Setu ;)
 				</Text>
-				<Text font="--base" text-align="center">
+				<Text font="--base" text-align="center" sm-text-align="left" sm-width="230px">
 					My name is{" "}
 					<Strong
 						data-q-widget-type="PRIMITIVE"
@@ -199,6 +199,7 @@ export default (() => {
 				sm-padding="54px 0 0 0"
 				position="relative"
 				max-width="800px"
+				sm-top="10px"
 			>
 				<Icon
 					position="absolute"
