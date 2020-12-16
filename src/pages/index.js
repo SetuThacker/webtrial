@@ -152,7 +152,7 @@ export default (() => {
 					</Text>
 				</StackItem>
 				<StackItem width="50%" md-width="100%">
-					<Text margin="0px">
+					<Text margin="0px" sm-height="480px">
 						<br />
 						<br />
 						How this App Works ?
@@ -209,8 +209,14 @@ export default (() => {
 					category="md"
 					icon={MdHelp}
 					padding="10px 0px 0px 0px"
+					sm-bottom="auto"
+					sm-height="36px"
+					sm-left="0px"
+					sm-right="auto"
+					sm-top="54px"
+					sm-width="36px"
 				/>
-				<Text as="h3" font="--headline3" margin="10px 0">
+				<Text as="h3" font="--headline3" margin="10px 0" sm-padding="0px 0px 0px 45px">
 					What does this Tool actually do?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
@@ -233,8 +239,14 @@ export default (() => {
 					category="md"
 					icon={MdHelp}
 					padding="10px 0px 0px 0px"
+					sm-bottom="auto"
+					sm-height="36px"
+					sm-left="0px"
+					sm-right="auto"
+					sm-top="50px"
+					sm-width="36px"
 				/>
-				<Text as="h3" font="--headline3" margin="10px 0">
+				<Text as="h3" font="--headline3" margin="10px 0" sm-padding="0px 0px 0px 45px">
 					Will I get it for Lifetime?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
@@ -257,8 +269,14 @@ export default (() => {
 					category="md"
 					icon={MdHelp}
 					padding="10px 0px 0px 0px"
+					sm-bottom="auto"
+					sm-height="36px"
+					sm-left="0px"
+					sm-right="auto"
+					sm-top="53px"
+					sm-width="36px"
 				/>
-				<Text as="h3" font="--headline3" margin="10px 0">
+				<Text as="h3" font="--headline3" margin="10px 0" sm-padding="0px 0px 0px 45px">
 					What about Hidden Cost to Use this Properly?{" "}
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
@@ -281,8 +299,14 @@ export default (() => {
 					category="md"
 					icon={MdHelp}
 					padding="10px 0px 0px 0px"
+					sm-bottom="auto"
+					sm-height="36px"
+					sm-left="0px"
+					sm-right="auto"
+					sm-top="54px"
+					sm-width="36px"
 				/>
-				<Text as="h3" font="--headline3" margin="10px 0" width="900px">
+				<Text as="h3" font="--headline3" margin="10px 0" sm-padding="0px 0px 0px 45px">
 					Why to choose this Tool instead of other tools available in Market ?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
@@ -296,6 +320,9 @@ export default (() => {
 				position="relative"
 				max-width="800px"
 			>
+				<Text as="h3" font="--headline3" margin="10px 0" sm-padding="0px 0px 0px 45px">
+					Will SMS go inside the Promotion Section ?{"\n\n"}
+				</Text>
 				<Icon
 					position="absolute"
 					top="0"
@@ -305,10 +332,20 @@ export default (() => {
 					category="md"
 					icon={MdHelp}
 					padding="10px 0px 0px 0px"
+					sm-bottom="auto"
+					sm-height="36px"
+					sm-left="0px"
+					sm-right="auto"
+					sm-top="54px"
+					sm-width="36px"
 				/>
-				<Text as="h3" font="--headline3" margin="10px 0" width="900px">
-					Will SMS go inside the Promotion Section ?
-				</Text>
+				<Text
+					as="h3"
+					font="--headline3"
+					margin="10px 0"
+					width="900px"
+					sm-padding="0px 0px 0px 45px"
+				/>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
 					No. Once the User has sent the SMS to all the Recipients. It will send in Main Inbox like his friend has send the message. MySMS is just Automate the thing like Name of the Recipients, Salary Amount, Different Coupon Code per Recipients & Many More Like this...
 					<br />
