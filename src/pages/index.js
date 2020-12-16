@@ -380,7 +380,7 @@ export default (() => {
 							icon={MdLocationOn}
 						/>
 						<Text as="h4" margin="6px 0" font="--base">
-							Visit us
+							Let's Meet at
 						</Text>
 						<Text as="p" margin="6px 0" font="--headline3">
 							Gandhidham, Kutchh
@@ -400,9 +400,15 @@ export default (() => {
 							left="0"
 							category="md"
 							icon={MdEmail}
+							sm-bottom="auto"
+							sm-height="48px"
+							sm-left="0px"
+							sm-right="auto"
+							sm-top="0px"
+							sm-width="48px"
 						/>
 						<Text as="h4" margin="6px 0" font="--base">
-							Email us
+							Get Support here & Ask your Query
 						</Text>
 						<Text as="p" margin="6px 0" font="--headline3">
 							<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
@@ -418,14 +424,18 @@ export default (() => {
 							left="0"
 							category="md"
 							icon={MdPhone}
+							sm-bottom="14px"
+							sm-height="48px"
+							sm-left="0px"
+							sm-right="auto"
+							sm-top="auto"
+							sm-width="48px"
 						/>
 						<Text as="h4" margin="6px 0" font="--base">
-							Call us
+							My Contact Number
 						</Text>
 						<Text as="p" margin="6px 0" font="--headline3">
 							+91 94278 15082
-							<br />
-							+91 9081002906
 						</Text>
 					</Box>
 					<Box
